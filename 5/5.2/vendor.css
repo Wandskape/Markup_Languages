@@ -1,0 +1,54 @@
+td{
+    empty-cells: hide;
+}
+caption{
+    size: 1.2em;
+    text-align: center;
+}
+
+/* tr:first-child{
+    background-color: darkblue;
+}
+.blue{
+    background-color: darkblue;
+}
+td:nth-child(3n+2){
+    background-color: #000bff;
+}
+
+td:nth-child(3n){
+    background-color: purple;
+}
+
+td:nth-child(4n){
+    background-color: green;
+} */
+
+table{
+    border: 4px;
+    border-spacing: 0px;
+    width: 260px;
+    text-align: center;
+  }
+
+.td1{
+    color: white;
+    background-color: #00bff0;
+}
+.td2{
+    color: white;
+    background-color: purple;
+}
+.td3{
+    color: white;
+    background-color: rgb(4, 105, 0);
+}
+
+.blue{
+    color: white;
+    background-color: darkblue;
+}
+
+td{
+    border: 2px ridge gray;
+}

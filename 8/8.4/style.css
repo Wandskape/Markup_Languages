@@ -1,0 +1,71 @@
+a{
+  text-decoration: none;   
+}
+
+.linka{
+    padding: 10px 70px 10px 70px;
+    border: 1px black solid;
+    display: inline-block;
+    text-align: center;
+}
+
+.l2:hover .content{display: block;}
+
+.content{
+    display: none;
+    position: absolute;
+    margin-left: -1px;
+    box-sizing: content-box;   
+}
+.content a{
+    border: 1px solid black;
+    width: 148px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0;
+}
+
+.l1:hover,.l2:hover,.l3:hover,.l4:hover {
+    background-size: 30px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.l1,.l2,.l3,.l4 {
+    background-size: 30px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.rowno{
+    margin: 10px 0 0 -71px ; 
+}
+
+.l1:hover{
+    background-image: url(img/facultet\ \(1\).png);
+}
+.l2:hover{
+    background-image: url(img/facultet\ \(2\).png);
+}
+.l3:hover{
+    background-image: url(img/facultet\ \(3\).png);
+}
+.l4:hover{
+    background-image: url(img/facultet\ \(4\).png);    
+}
+
+.l1{
+    background-image: url(img/facultet\ \(1\).png);
+}
+.l2{
+    background-image: url(img/facultet\ \(1\).png);
+}
+.l3{
+    background-image: url(img/facultet\ \(1\).png);
+}
+.l4{
+    background-image: url(img/facultet\ \(1\).png);    
+}

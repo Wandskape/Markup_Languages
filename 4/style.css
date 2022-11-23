@@ -1,0 +1,58 @@
+.block{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bl1{
+    border: 4px outset red;
+}
+
+.bl2{
+    border: 4px dashed green;
+}
+
+.bl3{
+    border: 4px dotted blue;
+}
+
+.bl4{
+    border: 4px double cyan;
+}
+
+.bl5{
+    border: 4px groove Magenta;
+}
+
+.bl6{
+    border: 4px inset yellow;
+}
+
+.bl7{
+    border: 4px solid black;
+}
+
+.blockline{
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background:#FFA500;
+    border: solid #FF4500;
+}
+
+.firstp{
+    width: 400px;
+    text-align: center;
+    border: solid #FF7F50;
+}
+
+.secondp{
+    border:5px;
+    border-radius: 40px/20px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+    overflow: auto;
+}
+
+.thirdp{
+    border: solid #FF6347;
+}

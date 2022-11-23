@@ -1,0 +1,30 @@
+div{
+    border: 2px black solid;
+    width: 200px;
+    margin: auto;
+    background-color:black;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0%{
+    color: rgb(128, 220, 23);
+    }
+    25%{ 
+    color: rgb(18, 199, 187);
+    }
+    50%{ 
+    color: rgb(12, 35, 163);
+    }
+    75%{ 
+    color: rgb(150, 25, 188);
+    }
+    100%{ 
+    color: rgb(221, 31, 186);
+    }    
+}
+
+

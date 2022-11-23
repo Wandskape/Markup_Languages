@@ -1,0 +1,19 @@
+table{
+    border: 2px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+
+.bg{
+    background-color: red;
+  }
+
+.bgl{
+    background-color: green;
+}
+
+.day{
+  transform: rotate(-90.0deg);
+  font-size: 20px;
+  height: 110px;
+}

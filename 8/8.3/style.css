@@ -1,0 +1,28 @@
+nav>ul>li {position: relative;}
+nav ul {position:absolute;}
+nav li:hover ul {display:block;}
+nav li ul {visibility:hidden;}
+nav li:hover ul {visibility:visible;}
+li {list-style-type: none;}
+a{
+    width: 100px;
+    text-decoration:none;
+    color: black;
+}
+
+.Yellow{
+    border: 1px black solid;
+    background-color: yellow;
+    padding: 5px 90px 5px 6px;
+}
+
+.second{
+    border: 1px dotted black;
+    background-color: rgb(230, 155, 43);
+    padding: 5px 10px 5px 6px;
+    width: 80px;
+}
+
+.pal{
+    margin: 5px 0 0 -40px ;
+}

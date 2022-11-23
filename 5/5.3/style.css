@@ -1,0 +1,25 @@
+form{
+    background-color: indigo;
+    color:white;
+    width: 330px; 
+    /* 330 */
+}
+
+.label {
+    display: inline-block;
+    width: 20em;
+    vertical-align: top;
+    text-align: left;
+    /* padding-left: 10px; */
+}
+
+.label2 {
+    display: inline-block;
+    width: 10px;
+    vertical-align:top;
+    padding-left: 25px;
+    text-align: left;
+    padding-right: 10px;
+    margin-left: auto;
+}
+    

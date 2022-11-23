@@ -1,0 +1,86 @@
+h1{
+    color: blue;
+    font-family: Arial;
+    text-align: center;
+}
+
+table{
+    border: 1px solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+    float: left;
+    clear: left;
+}
+td{
+    border: 1px solid;
+}
+
+.gree{
+    color: green;
+    float: left;
+    clear: left;
+}
+
+.p1{
+    color: red;
+    size: 3pt;
+    font-family: Georgia;
+    float: right;
+    clear: right;
+    margin: 0;
+    padding: 0;
+}
+
+.im1{
+    float: left;
+    clear: left;
+    width: 300px;
+}
+
+.p2{
+    color: green;
+    size: 4pt;
+    font-family: Courier;
+    float: left;
+    clear: left;
+    margin: 0;
+    padding: 0;
+}
+
+.p3{
+    color: black;
+    size: 5pt;
+    font-family: Verdana;
+    float: left;
+    clear: left;
+    margin: 0;
+    padding: 0;
+}
+
+.im2{
+    float: right;
+    clear: right;
+    width: 300px;
+}
+
+
+body{
+    background-image: url(it_bstu.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 80px ;
+    background-attachment: fixed;
+    width: 1050px;
+}
+
+ul>li{
+    background-image: url(dvijok.png);
+    background-repeat: no-repeat;
+    background-size: 15px ;
+    list-style: none;
+    padding-left: 14px;
+}
+
+footer{
+    clear: left;
+}

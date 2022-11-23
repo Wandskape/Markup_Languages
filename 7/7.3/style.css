@@ -1,0 +1,49 @@
+button{
+    font-size: 50px;
+}
+
+button:hover{
+    border: none;
+}
+
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+
+.b2:hover{
+    box-shadow: 0px 0px 0px 3px yellow;
+    border: 4px solid red;
+}
+
+.b3:hover{
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+}
+
+.b4:hover{
+    border-right: 4px solid blue;
+    border-left: 4px solid blue;
+}
+
+.b5:hover{
+    background-image: radial-gradient(yellow 1%,rgb(197, 37, 189) ,rgb(62, 62, 255),cyan );
+}
+
+h1{
+    animation-name: text;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes text {
+    0%{
+        filter: opacity(0%);
+        }
+        100%{ 
+        filter: opacity(80%);
+        }  
+}

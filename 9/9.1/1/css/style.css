@@ -1,0 +1,25 @@
+.grid {
+    display:grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas:
+    "x y w";
+    grid-template-columns:
+    7% 46% 46%;
+    grid-template-rows:
+    100% 100% 100%;
+    grid-gap: 2px;
+}
+
+.text { 
+    padding-right: 0px;
+    padding-top: 3px;
+    writing-mode: vertical-lr; 
+    text-orientation: upright; 
+    padding-bottom: 650%;
+}    
+
+.border{
+    border: 1px black solid;
+    text-align: center
+}

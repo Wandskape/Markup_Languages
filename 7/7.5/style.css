@@ -1,0 +1,169 @@
+.anim1{
+    position: relative;
+    /* z-index: 1; */
+    animation-name: flag1;
+    animation-duration:6s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+}
+
+.anim2{
+    position: relative;
+    /* z-index: 2; */
+    left: -205px;
+    animation-name: flag2;
+    animation-duration:6s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+}
+
+.anim3{
+    position: relative;
+    /* z-index: 3; */
+    left: -411px;
+    animation-name: flag3;
+    animation-duration:6s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+}
+
+.anim4{
+    position: relative;
+    /* z-index: 4; */
+    left: -613px;
+    animation-name: flag4;
+    animation-duration:6s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+}
+
+.anim5{
+    position: relative;
+    /* z-index: 5; */
+    left: -816px;
+    animation-name: flag5;
+    animation-duration:6s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes flag1 {
+    0%{
+        z-index: 1;
+    }
+    25%{
+        z-index: 2;
+    }
+    50%{    
+        z-index: 3;
+    }
+    75%{
+        z-index: 4;
+    }
+    100%{
+        z-index: 5;
+    }
+}
+
+@keyframes flag2 {
+    0%{
+        z-index: 2;
+    }
+    25%{
+        z-index: 3;
+    }
+    50%{    
+        z-index: 4;
+    }
+    75%{
+        z-index: 5;
+    }
+    100%{
+        z-index: 1;
+    }
+}
+
+@keyframes flag3 {
+    0%{
+        z-index: 3;
+    }
+    25%{
+        z-index: 4;
+    }
+    50%{    
+        z-index: 5;
+    }
+    75%{
+        z-index: 1;
+    }
+    100%{
+        z-index: 2;
+    }
+}
+
+@keyframes flag4 {
+    0%{
+        z-index: 4;
+    }
+    25%{
+        z-index: 5;
+    }
+    50%{    
+        z-index: 1;
+    }
+    75%{
+        z-index: 2;
+    }
+    100%{
+        z-index: 3;
+    }
+}
+
+@keyframes flag5 {
+    0%{
+        z-index: 5;
+    }
+    25%{
+        z-index: 1;
+    }
+    50%{    
+        z-index: 2;
+    }
+    75%{
+        z-index: 3;
+    }
+    100%{
+        z-index: 4;
+    }
+}
+
+h1{
+    animation-name: text;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes text {
+    0%{
+        filter: opacity(0%);
+        }
+        100%{ 
+        filter: opacity(80%);
+        }  
+}
+
+div{
+    display: inline-block;
+    margin: 0px;
+}
+
+.bord{
+    border: 5px solid white;
+}
+
+img{
+    margin: auto;
+}

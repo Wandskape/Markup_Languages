@@ -1,0 +1,111 @@
+@import url(import.css) (min-width:480px) and (max-width:760px);
+.flex1{
+    display: flex;
+    flex-flow: row wrap;  
+    margin: auto; 
+    justify-content: center;
+}
+.menu{
+    flex-basis: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    min-width: 70px;
+    background-color: rgb(163, 177, 104);
+}
+@media (max-width:480px){
+    .flex1{
+    justify-content: flex-start;
+    flex-direction: column;
+    }
+    .div{
+        min-width: 170px;
+        flex-basis: 20%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+@media (min-width:480px){
+    .div{display: none;}
+}
+
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.block1{
+    flex-basis: 100%;
+    text-align: center;
+}
+.block2{
+    flex-basis: 25%;
+    border: orange 1px dotted;
+}
+.block3{
+    flex-basis: 40%;
+    min-width: 300px;
+    padding: 10px;
+    border: orange 1px dotted;
+}
+.block4{
+    flex-basis: 25%;
+    border: orange 1px dotted;
+}
+body{
+    background-color:beige;
+}
+@media(max-width:620px){
+    .flex{
+        justify-content: center;
+    }
+    .block1,.block2,.block3,.block4{
+        flex-basis: 100%;
+    }
+}
+
+video{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: block;
+    margin: auto;
+}
+audio{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.flex2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+img{
+    width: 300px;
+    min-width: 1px;
+}
+.galery{
+    width: 300px;
+    min-width: 1px;
+}
+figcaption{
+    text-align: center;
+}
+@media(max-width:1280px){
+    .flex2{
+        align-content: center;
+        flex-flow: column wrap;
+    }
+}
+@media(max-width:480px){
+    .flex2 figcaption{
+        color: red;
+    }
+}

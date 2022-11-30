@@ -1,9 +1,43 @@
-@import url(import.css) (min-width:480px) and (max-width:760px);
+@import url(import.css) (min-width:481px) and (max-width:768px);
+.nav {
+    position: relative;
+    display: inline-block;
+  }
+  .button{
+    padding: 7px 80px 7px 7px;
+  }
+  .button:hover{
+    background-color: rgb(118, 192, 34);
+  }
+  .link {
+    display: none;
+    position: absolute;
+    background-color: rgb(206, 137, 8);
+    color: black;
+  }
+  .link a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    width: 165px;
+  }
+
+  .link a:hover{
+    background-color: rgb(195, 91, 54);
+  }
+
+  .nav:hover .link {display: block;}
+  .link :nth-child(even){
+  border-top-style:none ;
+  border-bottom-style: none;
+  }
+
 .flex1{
     display: flex;
     flex-flow: row wrap;  
     margin: auto; 
     justify-content: center;
+    align-content: center;
 }
 .menu{
     flex-basis: 20%;
@@ -26,8 +60,12 @@
         text-align: center;
     }
 }
-@media (min-width:480px){
+@media (min-width:481px){
     .div{display: none;}
+    .nav{display:none}
+}
+@media (max-width:481px){
+    .div, .menu{display: none;}
 }
 
 
@@ -43,21 +81,16 @@
 }
 .block2{
     flex-basis: 25%;
-    border: orange 1px dotted;
 }
 .block3{
     flex-basis: 40%;
     min-width: 300px;
     padding: 10px;
-    border: orange 1px dotted;
 }
 .block4{
     flex-basis: 25%;
-    border: orange 1px dotted;
 }
-body{
-    background-color:beige;
-}
+
 @media(max-width:620px){
     .flex{
         justify-content: center;
@@ -79,7 +112,6 @@ audio{
     display: block;
     margin: auto;
 }
-
 
 
 .flex2{
@@ -105,7 +137,19 @@ figcaption{
     }
 }
 @media(max-width:480px){
-    .flex2 figcaption{
-        color: red;
-    }
+    .flex2 figcaption{color: red;}
 }
+
+body{
+    background-color: rgb(231, 207, 97);
+}
+
+.bora{
+    border: 1px black solid;
+}
+
+.cell{
+    text-decoration: none;
+    
+}
+

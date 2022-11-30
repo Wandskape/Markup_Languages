@@ -11,19 +11,30 @@
 </head>
 <body>
     <div class="flex1">
-        <div class="div">Заголовок &#8801</div>
-        <div class="menu">Ячейка 1</div>
-        <div class="menu">Ячейка 2</div>
-        <div class="menu">Ячейка 3</div>
+        <nav class="nav">
+               <button class="button">Заголовок &#8801</button>
+               <div class="link">
+                 <a class="" href="#first">Ячейка 1</a>
+                 <a class="" href="#second">Ячейка 2</a>
+                 <a class="" href="#third">Ячейка 3</a>
+               </div>
+           </nav>
+               <div class="div">Заголовок &#8801</div>
+               <div class="menu , cell"><a class="" href="#first">Ячейка 1</a></div>
+               <div class="menu , cell"><a class="" href="#second">Ячейка 2</a></div>
+               <div class="menu , cell"><a class="" href="#third">Ячейка 3</a></div>
     </div>
+
     <div class="flex">
         <div class="block1"><h3>АДАПТИВНЫЙ ВЕБ-ДИЗАЙН. FLEXBOX-ВЕРСТКА</h2></div>
         <div class="block2">
+            <a name="first"></a>
             <video controls="controls"><source src="https://www.youtube.com/watch?v=eVZEwEQg4pg"></video>
             <video controls="controls"><source src="https://www.youtube.com/watch?v=EO8hH_2OwCU"></video>
             <video controls="controls"><source src="https://www.youtube.com/watch?v=38bMnJ2l4bg"></video>
         </div>
-        <div class="block3">Адаптивный веб-дизайн позволяет изменять структуру вебстраницы на основе ширины окна браузера на различных
+        
+        <div class="block3"><a name="second"></a>Адаптивный веб-дизайн позволяет изменять структуру вебстраницы на основе ширины окна браузера на различных
             устройствах (планшеты, смартфоны). Для его осуществления
             используются гибкие сетки, гибкие изображения и медиазапросы
             CSS, предназначенные для создания различных стилей для
@@ -40,7 +51,9 @@
         С помощью display: flex; осуществляется преобразование HTML-элемента в flex-контейнер, а элементы находящийся внутри него в flex-элементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение определяет направление, а второе перенос на следующую строку. Свойство flex-flow является сокращенной записью и содержит
         значения свойств flex-direction и flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column). Перенос элементов осуществляется с помощью значения wrap.
         </div>
+        
         <div class="block4">
+            <a name="third"></a>
             <audio src="" controls></audio>
             <audio src="" controls></audio>
             <audio src="" controls></audio>

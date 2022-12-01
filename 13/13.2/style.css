@@ -1,0 +1,12 @@
+root{
+    display: table;
+    border-collapse: collapse;
+    margin: 3px;
+}
+
+student,firstname,lastname,mark{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}

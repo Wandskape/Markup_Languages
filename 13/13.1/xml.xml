@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<blocks>
+    <head>
+        <Aid>id</Aid>
+        <Aname>name</Aname>
+        <Aversion>version</Aversion>
+        <Ameasurement>measurement</Ameasurement>
+    </head>
+
+    <block>
+        <id>3</id>
+        <name>dirt</name>
+        <version>alfa 1.0</version>
+        <measurement>overworld</measurement>
+    </block>
+
+    <block>
+        <id>7</id>
+        <name>bedrock</name>
+        <version>alfa 1.0</version>
+        <measurement>overvorld,nether,end</measurement>
+    </block>
+
+    <block>
+        <id>18</id>
+        <name>oak lives</name>
+        <version>alfa 1.0</version>
+        <measurement>overworld</measurement>
+    </block>
+
+</blocks>

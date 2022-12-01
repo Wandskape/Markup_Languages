@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<cities>
+    <item>
+        <id>1</id>
+        <city>Челябинск</city>
+        <population>1202</population>
+    </item>
+    <item>
+        <id>2</id>
+        <city>Нижний Новгород</city>
+        <population>1259</population>
+    </item>
+    <item>
+        <id>3</id>
+        <city>Санкт-Петербург</city>
+        <population>5352</population>
+    </item>
+    <item>
+        <id>4</id>
+        <city>Самара</city>
+        <population>1163</population>
+    </item>
+    <item>
+        <id>5</id>
+        <city>Новосибирск</city>
+        <population>1613</population>
+    </item>
+    <item>
+        <id>6</id>
+        <city>Екатеринбург</city>
+        <population>1469</population>
+    </item>
+    <item>
+        <id>7</id>
+        <city>Казань</city>
+        <population>1244</population>
+    </item>
+    <item>
+        <id>8</id>
+        <city>Ростов-на-Дону</city>
+        <population>1130</population>
+    </item>
+    <item>
+        <id>9</id>
+        <city>Москва</city>
+        <population>12506</population>
+    </item>
+    <item>
+        <id>10</id>
+        <city>Омск</city>
+        <population>1172</population>
+    </item>
+</cities>

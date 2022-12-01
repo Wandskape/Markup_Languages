@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE blocks [
+<!ELEMENT blocks (head, Aid, Aname,Aversion,Ameasurement,block,id,name,version,measurement)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT Aid (#PCDATA)>
+<!ELEMENT Aname (#PCDATA)>
+<!ELEMENT Aversion (#PCDATA)>
+<!ELEMENT Ameasurement (#PCDATA)>
+<!ELEMENT block (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT measurement (#PCDATA)>
+<!ENTITY Spesh_measurement "невозможно найти в инвентаре креатива(до версии 1.19.3), возможно выдать только командой">
+]>
+
+<blocks>
+    <head>
+        <Aid>id</Aid>
+        <Aname>name</Aname>
+        <Aversion>version</Aversion>
+        <Ameasurement>measurement</Ameasurement>
+    </head>
+
+    <block>
+        <id>3</id>
+        <name>dirt</name>
+        <version>alfa 1.0</version>
+        <measurement>overworld</measurement>
+    </block>
+
+    <block>
+        <id>7</id>
+        <name>bedrock</name>
+        <version>alfa 1.0</version>
+        <measurement>overvorld,nether,end</measurement>
+    </block>
+
+    <block>
+        <id>18</id>
+        <name>oak lives</name>
+        <version>alfa 1.0</version>
+        <measurement>overworld</measurement>
+    </block>
+
+    <block>
+        <id>137</id>
+        <name>command block</name>
+        <version>1.4.2 12w32a</version>
+        <measurement>&Spesh_measurement;</measurement>
+    </block>
+
+    <block>
+        <id>189</id>
+        <name>chain command block</name>
+        <version>1.8.6 15w33a</version>
+        <measurement>&Spesh_measurement;</measurement>
+    </block>
+
+        <block>
+        <id>188</id>
+        <name>repeating command block</name>
+        <version>1.8.6 15w33a</version>
+        <measurement>&Spesh_measurement;</measurement>
+    </block>
+
+</blocks>

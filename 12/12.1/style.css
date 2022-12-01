@@ -1,0 +1,24 @@
+blocks{
+    display: table;
+    border-collapse: collapse;
+    margin: 3px;
+}
+
+block,head{
+    display: table-row;
+}
+
+Aid,Aname,Aversion,Ameasurement{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background: rgb(207, 24, 207);
+}
+
+id,name,version,measurement{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
